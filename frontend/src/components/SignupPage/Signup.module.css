@@ -1,0 +1,182 @@
+.logincontainer{
+    width: 100vw;
+    height: 100vh;
+
+
+    .backbutton{
+        padding-left: 30px;
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #FFFFFF;
+            border: transparent;
+            background-color: #111;
+            color: #FFFFFF;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+
+
+    .loginform{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;   
+    
+
+        .loginformcontainer{
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+            .loginformheader{
+                display: flex;
+                flex-direction: column;
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.03em;
+                color: #FFFFFF;
+
+                input{
+                    width: 313.97px;
+                    height: 41.31px;
+                    border-radius: 12px;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 300;
+                    letter-spacing: 0.03em;
+                    padding-left: 10px;
+                    /* border: none; */
+                    border: 1px solid #FFFFFF80;
+                    background: transparent;
+                    color: white;
+                }
+            }
+
+            .loginformfooter{
+                .loginbtn{
+                    width: 330px;
+                    height: 41.31px;
+                    border-radius: 12px;
+                    background: #1A5FFF;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 500;
+                    letter-spacing: 0.03em;
+                    color: #FFFFFF;
+                    border: none;
+                    margin-top: 10px;
+                    /* background: none; */
+                    
+                }
+                
+            }
+
+
+        }
+
+        span{
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 18px;
+            letter-spacing: 0.03em;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .googleloginbtn{
+            width: 330px;
+            height: 41.31px;
+            border-radius: 12px;
+            padding-left: 10px;
+            border: none;
+            background: #1A5FFF;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: space-center;
+            padding: 20px;
+            gap: 50px;
+            padding-left: 20px;
+        }
+
+        .loginformfooterpara{
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 18px;
+            letter-spacing: 0.03em;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 0px;
+
+
+            span{
+                padding-left: 5px;
+                color: #1A5FFF;
+            }
+        
+        }
+
+    }
+
+    .Ellipse2{
+        position: fixed;
+        right: 0;
+        top: 100px;
+        height: 200px;
+    }
+
+    .Ellipse1{
+        position: fixed;
+        bottom: 0;
+        height: 100px;
+        right: 250px;
+    }
+
+    .triangle{
+        position: fixed;
+        top: 200px;
+        left: 100px;
+        height: 250px;
+    }
+}
+
+.wrongbtndesign {
+    border: 2px solid red;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .errorMsg{
+    color: red;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    text-align: start;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+  }
